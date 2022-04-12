@@ -38,13 +38,13 @@ python -m ipykernel install --user --name=tfodj
 If not, resolve installation errors by referring to the Error Guide.md in this folder.
 <br /> <br/>
 <b>Step 9.</b> Once you get to step 6. Train the model, inside of the notebook, you may choose to train the model from within the notebook. I have noticed however that training inside of a separate terminal on a Windows machine you're able to display live loss metrics. 
-<img src="https://imgur.com/gallery/SzED4zi.jpg"> 
+<img src="https://i.imgur.com/9N8oTmp.jpg"> 
 <br />
 <b>Step 10.</b> You can optionally evaluate your model inside of Tensorboard. Once the model has been trained and you have run the evaluation command under Step 7. Navigate to the evaluation folder for your trained model e.g. 
 <pre> cd Tensorlfow/workspace/models/my_ssd_mobnet/eval</pre> 
 and open Tensorboard with the following command
 <pre>tensorboard --logdir=. </pre>
 Tensorboard will be accessible through your browser and you will be able to see metrics including mAP - mean Average Precision, and Recall.
-<img src="https://imgur.com/QGpPB8s"> 
+<img src="https://i.imgur.com/YrBUbs4.jpg"> 
 
 <br />
